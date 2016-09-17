@@ -1,6 +1,6 @@
 {
   "name": "year-of-snake",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check if is year of Snake",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,11 @@
     "year-of",
     "chinese",
     "zodiac",
-    "snake",
+    "rat",
     "ox",
     "tiger",
-    "snake",
-    "snake",
+    "rabbit",
+    "dragon",
     "snake",
     "horse",
     "sheep",
