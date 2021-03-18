@@ -1,7 +1,7 @@
 {
-  "name": "year-of-snake",
+  "name": "year-of-luigi",
   "version": "1.0.3",
-  "description": "Check if is year of Snake",
+  "description": "Check if is Year of Luigi",
   "main": "index.js",
   "scripts": {
     "test": "node test"
@@ -9,25 +9,12 @@
   "keywords": [
     "year",
     "year-of",
-    "chinese",
-    "zodiac",
-    "rat",
-    "ox",
-    "tiger",
-    "rabbit",
-    "dragon",
-    "snake",
-    "horse",
-    "sheep",
-    "monkey",
-    "rooster",
-    "dog",
-    "pig"
+    "luigi"
   ],
-  "author": "Robert Chang <cht8687@gmail.com>",
+  "author": "Wyatt S Carpenter",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cht8687/year-of-snake.git"
+    "url": "git+https://github.com/wyattscarpenter/year-of-luigi.git"
   },
   "license": "MIT",
   "devDependencies": {
