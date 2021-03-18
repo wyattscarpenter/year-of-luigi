@@ -1,37 +1,46 @@
-# year-of-snake [![Build Status](https://travis-ci.org/cht8687/year-of-snake.svg?branch=master)](https://travis-ci.org/cht8687/year-of-snake)
+# year-of-luigi
 
-> Check if is year of Snake
+> Check if is year of Luigi
 
 ## Install
 
 ```
-$ npm install --save year-of-snake
+$ npm install --save year-of-luigi
 ```
+
+## Caveat
+The Year of Luigi is commonly said to have taken place between February 14, 2013 and March 18, 2014. The precise boundaries are a point of scholarly debate, however. But as of now this module considers any date object between those two dates inclusively (in the current working timezone) to be valid Year of Luigi.
 
 ## Usage
 
 ```js
 
-const yearOfSnake = require('year-of-snake');
+const yearOfLuigi = require('year-of-luigi');
 
-yearOfSnake(1988);
-// true
+yearOfLuigi(2013);
+// "probably"
 
-yearOfSnake(1989);
+yearOfLuigi(2014);
+// "maybe"
+
+yearOfLuigi(2015);
 // false
+
+yearOfLuigi(new Date("2013-02-14"));
+//true
 
 
 ```
 ## API
 
-### yearOfSnake([year])
+### yearOfLuigi([year])
 
 #### year
 
 Type: `number`  
 Default: current year
 
-### yearOfSnake([date])
+### yearOfLuigi([date])
 
 #### date
 
@@ -41,3 +50,4 @@ Default: `new Date()`
 ## License
 
 MIT © [haotian Chang](https://github.com/cht8687)
+Luigification: MIT © [Wyatt Carpenter](https://github.com/wyattscarpenter)
