@@ -50,4 +50,5 @@ Default: `new Date()`
 ## License
 
 MIT © [haotian Chang](https://github.com/cht8687)
+
 Luigification: MIT © [Wyatt Carpenter](https://github.com/wyattscarpenter)
