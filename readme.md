@@ -35,17 +35,8 @@ yearOfLuigi(new Date("2013-02-14"));
 
 ### yearOfLuigi([year])
 
-#### year
-
-Type: `number`  
-Default: current year
-
-### yearOfLuigi([date])
-
-#### date
-
-Type: `date`  
-Default: `new Date()`
+Type: `number` (year) or `Date`
+Default: `new Date()` (now)
 
 ## License
 
