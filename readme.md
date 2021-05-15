@@ -36,6 +36,7 @@ yearOfLuigi(new Date("2013-02-14"));
 ### yearOfLuigi([year])
 
 Type: `number` (year) or `Date`
+
 Default: `new Date()` (now)
 
 ## License
