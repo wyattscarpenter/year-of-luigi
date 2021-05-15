@@ -1,6 +1,6 @@
 {
   "name": "year-of-luigi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if is Year of Luigi",
   "main": "index.js",
   "scripts": {
